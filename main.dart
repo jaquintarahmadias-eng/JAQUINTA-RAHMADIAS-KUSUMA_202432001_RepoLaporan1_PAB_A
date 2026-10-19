@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 void main() => runApp(const MyApp());
 
-/// Model data rute KRL
+
 class RuteKRL {
   final String namaRute;
   final int tarif;
-  final double waktuTempuh; // dalam menit
+  final double waktuTempuh; 
   final String pembuatData;
   final bool isFavorit;
 
